@@ -60,7 +60,8 @@ export const ProjectsSection = () => {
           {portfolioProjects.map((project, projectIndex) => (
             <Card
               key={project.title}
-              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky" style={{
+              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+              style={{
                 top: `calc(64px + ${projectIndex * 40}px`,
               }}
             >
@@ -76,8 +77,17 @@ export const ProjectsSection = () => {
                   </h3>
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
-                    {project.results.map((result) => (
+                    {/* {project.results.map((result) => (
                       <li className="flex gap-2 text-sm md:text-base text-white/50">
+                        <CheckCircleIcon className="size-5 md:size-6" />
+                        <span>{result.title}</span>
+                      </li>
+                    ))} */}
+                    {project.results.map((result) => (
+                      <li
+                        key={result.title}
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckCircleIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
