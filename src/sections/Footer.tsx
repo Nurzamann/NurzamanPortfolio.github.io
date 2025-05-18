@@ -3,19 +3,19 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: "Twitter",
-    href: "#",
+    href: "https://x.com/nrzmnnn?s=21",
   },
   {
     title: "Instagram",
-    href: "#",
+    href: "https://www.instagram.com/nrjaman__/",
   },
   {
     title: "LinkedIn",
-    href: "#",
+    href: "https://www.linkedin.com/in/nur-zaman-510175342/",
   },
   {
     title: "Github",
-    href: "#",
+    href: "https://github.com/Nurzamann",
   },
 ];
 
