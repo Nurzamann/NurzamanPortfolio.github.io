@@ -1,5 +1,5 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
+import spkPemilihanKost from "@/assets/images/spk-pemilihan-kost.png";
+import siLayananIt from "@/assets/images/sistem-informasi-layanan-it.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -18,7 +18,7 @@ const portfolioProjects = [
       { title: "Improved recommendation accuracy and reliability" },
     ],
     link: "https://github.com/Nurzamann/SPK_PemilihanKost",
-    image: darkSaasLandingPage,
+    image: spkPemilihanKost,
   },
   {
     company: "Unindra",
@@ -30,7 +30,7 @@ const portfolioProjects = [
       { title: "Enhanced transparency in service tracking and reporting" },
     ],
     link: "https://github.com/Nurzamann/Aplikasi_Layanan_IT_Support",
-    image: lightSaasLandingPage,
+    image: siLayananIt,
   },
 ];
 
